@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.example.admin.demo.DragGridLayout
+        android:id="@+id/showgrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.admin.demo.DragGridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6000"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="点击添加到导航条" />
+
+    <com.example.admin.demo.DragGridLayout
+        android:id="@+id/hidegrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.admin.demo.DragGridLayout>
+
+</LinearLayout>

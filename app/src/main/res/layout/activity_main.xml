@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加"/>
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:columnCount="4">
+    </GridLayout>
+    <com.example.admin.demo.DragGridLayout
+        android:id="@+id/grild1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.admin.demo.DragGridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="#6000"
+        android:text="点击添加到导航条" />
+
+    <com.example.admin.demo.DragGridLayout
+        android:id="@+id/grild2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.admin.demo.DragGridLayout>
+</LinearLayout>
